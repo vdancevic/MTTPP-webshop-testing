@@ -68,10 +68,10 @@ For testing this framework I have used [Mikronis webshop](https://www.mikronis.h
 | Class Name | Description |
 |-----------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | RegistrationTest | Allows testing the registration of new accounts by completing a simple registration form without a captcha test. |
-| LoginTest] | Allows testing the logging of users into an existing webshop account by filling out the login form on the loginpage. |
-| QueryTest] | Allows testing searching particulr item on webshop. |
-| AddToCartTest] | Allows testing adding item into shopping cart. |
-| RemoveFromCartTest] | Allows testing removing item from shopping cart. |
+| LoginTest | Allows testing the logging of users into an existing webshop account by filling out the login form on the loginpage. |
+| QueryTest | Allows testing searching particulr item on webshop. |
+| AddToCartTest | Allows testing adding item into shopping cart. |
+| RemoveFromCartTest | Allows testing removing item from shopping cart. |
 
 References
 -----
