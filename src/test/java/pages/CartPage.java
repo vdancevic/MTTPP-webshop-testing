@@ -6,10 +6,10 @@ import org.openqa.selenium.support.How;
 
 public class CartPage {
 
-    @FindBy(xpath = "/html/body/header/div/ul/li[2]/a")
+    @FindBy(xpath = "/html/body/header/div[2]/ul/li[2]/a ")
     private WebElement shoppingCartButton;
 
-    @FindBy(how = How.XPATH, using = "/html/body/div[2]/section/div/div/div[2]/div[2]/div/div[3]/a")
+    @FindBy(how = How.XPATH, using = "/html/body/div[4]/div[1]/ul/li[2]/a")
     private WebElement removeFromCartButton;
 
     public void openShoppingCart() {

@@ -11,19 +11,19 @@ public class IndexPage {
         this.driver = driver;
     }
 
-    @FindBy(xpath = "/html/body/header/div/ul/li[5]/a")
+    @FindBy(xpath = "/html/body/header/div[2]/ul/li[6]/a")
     private WebElement loginButton;
 
-    @FindBy(xpath = "/html/body/header/div/ul/li[4]/a")
+    @FindBy(xpath = "/html/body/header/div[2]/ul/li[5]/a")
     private WebElement registerButton;
 
-    @FindBy(xpath = "/html/body/header/div/ul/li[2]/a")
+    @FindBy(xpath = "/html/body/header/div[2]/ul/li[2]/a")
     private WebElement cartButton;
 
-    @FindBy(xpath = "/html/body/header/div/div/form/ul/li[1]/input")
+    @FindBy(xpath = "/html/body/header/div[2]/div/div/form/ul/li[1]/input")
     private WebElement searchBar;
 
-    @FindBy(xpath = "/html/body/header/div/div/form/ul/li[2]/a/span")
+    @FindBy(xpath = "/html/body/header/div[2]/div/div/form/ul/li[2]/a/span")
     private WebElement searchBoxConfirmButton;
 
     public void goToLogin() {
